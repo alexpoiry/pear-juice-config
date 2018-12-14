@@ -1,0 +1,9 @@
+# Auto-detect text files
+* text=auto
+
+# Force all files to use LF for consistency
+Jenkinsfile text eol=lf
+*.* text eol=lf
+
+# Ensure binary files are left alone
+*.png binary
